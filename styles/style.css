@@ -1,19 +1,37 @@
 body {
-    margin-top: 16px;
+    margin: 16px 4px 16px 4px;
     padding-bottom: 5px;
+    background-image: url('http://images6.fanpop.com/image/photos/36700000/Bleach-Anime-image-bleach-anime-36781478-1095-730.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Economica', sans-serif;
 }
 
 a {
-    color: white;
+
 }
 
 
 /*Classes*/
 
+.title,
+.sub-title {
+    font-family: 'Gloria Hallelujah', cursive;
+}
+.intro{
+        font-family: 'Economica', sans-serif;
+}
 .well {
     padding: 5px 5px 10px 5px;
     border-width: 2px;
     border-color: black;
+    border-style: solid;
+}
+.icons{
+    margin-top:16px;
+}
+.wiki {
+    font-size: 16px;
 }
 
 .about,
@@ -28,7 +46,9 @@ a {
 }
 
 .main-photo {
-    padding-bottom: 4px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
 }
 
 
@@ -37,5 +57,4 @@ a {
 #quote {
     font-family: 'Aguafina Script', cursive;
     font-size: 36px;
-    margin-top: 25px;
 }
