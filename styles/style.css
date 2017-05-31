@@ -1,0 +1,41 @@
+body {
+    margin-top: 16px;
+    padding-bottom: 5px;
+}
+
+a {
+    color: white;
+}
+
+
+/*Classes*/
+
+.well {
+    padding: 5px 5px 10px 5px;
+    border-width: 2px;
+    border-color: black;
+}
+
+.about,
+.notable-works {
+    font-size: 20px;
+}
+
+.scrollable ul {
+    overflow: hidden;
+    overflow-y: scroll;
+    max-height: 310px;
+}
+
+.main-photo {
+    padding-bottom: 4px;
+}
+
+
+/*IDs*/
+
+#quote {
+    font-family: 'Aguafina Script', cursive;
+    font-size: 36px;
+    margin-top: 25px;
+}
